@@ -25,7 +25,7 @@
           "dpidsExcluded": []
         },
         {
-          "tid": 10,
+          "tid": 0,
           "pids": [],
           "pidsExcluded": [],
           "dpids": [],
@@ -5394,12 +5394,12 @@
     },
     {
       "key": "userTid",
-      "value": 18
+      "value": 20
     },
     {
       "key": "userTids",
       "value": [
-        18
+        20
       ]
     }
   ],
@@ -30006,7 +30006,7 @@
       "pid": 118
     },
     {
-      "tid": -1,
+      "tid": 2,
       "name": "David Nwaba",
       "ratings": [
         {
@@ -30042,8 +30042,8 @@
       },
       "imgURL": "https://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628021.png",
       "contract": {
-        "amount": 1500,
-        "exp": 2020
+        "amount": 1750,
+        "exp": 2021
       },
       "draft": {
         "round": 0,
@@ -30153,8 +30153,55 @@
       "rosterOrder": 666,
       "watch": false,
       "yearsFreeAgent": 0,
-      "stats": [],
-      "statsTids": [],
+      "stats": [
+        {
+          "playoffs": false,
+          "season": 2020,
+          "tid": 2,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
+        }
+      ],
+      "statsTids": [
+        2
+      ],
       "firstName": "David",
       "lastName": "Nwaba",
       "value": 47,
@@ -37604,7 +37651,7 @@
       "pid": 160
     },
     {
-      "tid": -1,
+      "tid": 10,
       "name": "Anthony Bennett",
       "ratings": [
         {
@@ -37640,7 +37687,7 @@
       },
       "imgURL": "http://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/203461.png",
       "contract": {
-        "amount": 1020,
+        "amount": 900,
         "exp": 2020
       },
       "draft": {
@@ -37751,8 +37798,55 @@
       "rosterOrder": 666,
       "watch": false,
       "yearsFreeAgent": 0,
-      "stats": [],
-      "statsTids": [],
+      "stats": [
+        {
+          "playoffs": false,
+          "season": 2020,
+          "tid": 10,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
+        }
+      ],
+      "statsTids": [
+        10
+      ],
       "firstName": "Anthony",
       "lastName": "Bennett",
       "value": 36,
@@ -79188,7 +79282,7 @@
       "pid": 392
     },
     {
-      "tid": -1,
+      "tid": 10,
       "name": "Tyson Chandler",
       "ratings": [
         {
@@ -79345,8 +79439,55 @@
       "rosterOrder": 666,
       "watch": false,
       "yearsFreeAgent": 0,
-      "stats": [],
-      "statsTids": [],
+      "stats": [
+        {
+          "playoffs": false,
+          "season": 2020,
+          "tid": 10,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
+        }
+      ],
+      "statsTids": [
+        10
+      ],
       "firstName": "Tyson",
       "lastName": "Chandler",
       "value": 44,
@@ -121187,7 +121328,7 @@
       },
       "imgURL": "http://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628436.png",
       "contract": {
-        "amount": 1600,
+        "amount": 2250,
         "exp": 2021
       },
       "draft": {
@@ -125377,7 +125518,7 @@
       "pid": 638
     },
     {
-      "tid": -1,
+      "tid": 25,
       "name": "Tyler Lydon",
       "ratings": [
         {
@@ -125413,8 +125554,8 @@
       },
       "imgURL": "http://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1628399.png",
       "contract": {
-        "amount": 1880,
-        "exp": 2020
+        "amount": 900,
+        "exp": 2021
       },
       "draft": {
         "round": 1,
@@ -125524,8 +125665,55 @@
       "rosterOrder": 666,
       "watch": false,
       "yearsFreeAgent": 0,
-      "stats": [],
-      "statsTids": [],
+      "stats": [
+        {
+          "playoffs": false,
+          "season": 2020,
+          "tid": 25,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
+        }
+      ],
+      "statsTids": [
+        25
+      ],
       "firstName": "Tyler",
       "lastName": "Lydon",
       "value": 43.7,
@@ -151783,7 +151971,7 @@
       "pid": 779
     },
     {
-      "tid": -1,
+      "tid": 27,
       "name": "Cameron Payne",
       "pos": "PG",
       "hgt": 75,
@@ -151795,7 +151983,7 @@
       "imgURL": "http://ak-static.cms.nba.com/wp-content/uploads/headshots/nba/latest/260x190/1626166.png",
       "contract": {
         "amount": 900,
-        "exp": 2020
+        "exp": 2021
       },
       "draft": {
         "round": 1,
@@ -151930,8 +152118,55 @@
       "rosterOrder": 666,
       "watch": false,
       "yearsFreeAgent": 0,
-      "stats": [],
-      "statsTids": [],
+      "stats": [
+        {
+          "playoffs": false,
+          "season": 2020,
+          "tid": 27,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
+        }
+      ],
+      "statsTids": [
+        27
+      ],
       "firstName": "Cameron",
       "lastName": "Payne",
       "value": 48,
