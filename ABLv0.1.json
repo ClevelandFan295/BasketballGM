@@ -10,22 +10,23 @@
   "playoffSeries": [],
   "negotiations": [],
   "draftLotteryResults": [],
-  "events": [],
   "playerFeats": [],
   "trade": [
     {
       "rid": 0,
       "teams": [
         {
-          "tid": 0,
+          "tid": 4,
           "pids": [],
           "pidsExcluded": [],
           "dpids": [],
           "dpidsExcluded": []
         },
         {
-          "tid": 1,
-          "pids": [],
+          "tid": 5,
+          "pids": [
+            12
+          ],
           "pidsExcluded": [],
           "dpids": [],
           "dpidsExcluded": []
@@ -40,6 +41,57 @@
       "year": 2019,
       "text": "<p>Hey there! Thanks for getting my ABL file off reddit. If you’ve downloaded this, you’ve probably read the whole post, if not, this is a 10-team file with some fun modifications to play with. Everything was done within the file itself, so you can still get achievements! I hope you have fun with this, just don’t forget to pay close attention to finances, since you can get fired at any time. Have fun, see ya later!!</p><p>-ClevelandFan (/u/AmazingHenry)</p>",
       "mid": 0
+    }
+  ],
+  "events": [
+    {
+      "type": "trade",
+      "text": "The <a href=\"/l/40/roster/COL/2019\">Cardinals</a> traded <a href=\"/l/40/player/10\">Mike Miller</a>, <a href=\"/l/40/player/17\">Sava Miller</a>, a 2019 1st round pick (COL), and a 2022 1st round pick (COL) to the <a href=\"/l/40/roster/SD/2019\">Lightning</a> for <a href=\"/l/40/player/2\">Jimmy Smith</a>.",
+      "pids": [
+        10,
+        17,
+        2
+      ],
+      "tids": [
+        4,
+        6
+      ],
+      "season": 2019,
+      "eid": 0
+    },
+    {
+      "type": "trade",
+      "text": "The <a href=\"/l/40/roster/COL/2019\">Cardinals</a> traded <a href=\"/l/40/player/61\">Aaron Moore</a>, <a href=\"/l/40/player/77\">Phil Otis</a>, a 2020 1st round pick (COL), and a 2021 1st round pick (COL) to the <a href=\"/l/40/roster/CHI/2019\">Whirlwinds</a> for <a href=\"/l/40/player/39\">LaRon Brooks</a>.",
+      "pids": [
+        61,
+        77,
+        39
+      ],
+      "tids": [
+        4,
+        3
+      ],
+      "season": 2019,
+      "eid": 1
+    },
+    {
+      "type": "trade",
+      "text": "The <a href=\"/l/40/roster/SD/2019\">Lightning</a> traded <a href=\"/l/40/player/9\">Derrek Quaintance</a>, <a href=\"/l/40/player/12\">Antoine Edwards</a>, <a href=\"/l/40/player/58\">Michael Meacham</a>, and <a href=\"/l/40/player/59\">Sani Rojc</a> to the <a href=\"/l/40/roster/SEA/2019\">SuperSonics</a> for <a href=\"/l/40/player/25\">Marcus Green</a>, <a href=\"/l/40/player/38\">Stefan Milovanovic</a>, and <a href=\"/l/40/player/44\">Issac Kelm</a>.",
+      "pids": [
+        9,
+        12,
+        58,
+        59,
+        25,
+        38,
+        44
+      ],
+      "tids": [
+        6,
+        5
+      ],
+      "season": 2019,
+      "eid": 2
     }
   ],
   "teams": [
@@ -1788,7 +1840,7 @@
       "dpid": 3
     },
     {
-      "tid": 4,
+      "tid": 6,
       "originalTid": 4,
       "round": 1,
       "pick": 0,
@@ -1868,7 +1920,7 @@
       "dpid": 13
     },
     {
-      "tid": 4,
+      "tid": 3,
       "originalTid": 4,
       "round": 1,
       "pick": 0,
@@ -1948,7 +2000,7 @@
       "dpid": 23
     },
     {
-      "tid": 4,
+      "tid": 3,
       "originalTid": 4,
       "round": 1,
       "pick": 0,
@@ -2028,7 +2080,7 @@
       "dpid": 33
     },
     {
-      "tid": 4,
+      "tid": 6,
       "originalTid": 4,
       "round": 1,
       "pick": 0,
@@ -2171,7 +2223,7 @@
     },
     {
       "key": "luxuryPayroll",
-      "value": 15000
+      "value": 8000
     },
     {
       "key": "luxuryTax",
@@ -2179,11 +2231,11 @@
     },
     {
       "key": "maxContract",
-      "value": 5000
+      "value": 2500
     },
     {
       "key": "maxRosterSize",
-      "value": 15
+      "value": 12
     },
     {
       "key": "minContract",
@@ -2191,7 +2243,7 @@
     },
     {
       "key": "minPayroll",
-      "value": 20000
+      "value": 3000
     },
     {
       "key": "minRosterSize",
@@ -2239,7 +2291,7 @@
     },
     {
       "key": "playersRefuseToNegotiate",
-      "value": true
+      "value": false
     },
     {
       "key": "quarterLength",
@@ -2247,7 +2299,7 @@
     },
     {
       "key": "salaryCap",
-      "value": 20000
+      "value": 6500
     },
     {
       "key": "season",
@@ -2283,7 +2335,7 @@
     },
     {
       "key": "userTid",
-      "value": 9
+      "value": 4
     },
     {
       "key": "userTids",
@@ -2426,7 +2478,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 0,
       "salaries": [
         {
           "season": 2019,
@@ -2631,7 +2683,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 0,
       "salaries": [
         {
           "season": 2019,
@@ -2830,7 +2882,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 1,
       "salaries": [
         {
           "season": 2019,
@@ -2881,12 +2933,57 @@
           "ba": 0,
           "pf": 0,
           "pts": 0
+        },
+        {
+          "playoffs": false,
+          "season": 2019,
+          "tid": 4,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
         }
       ],
       "statsTids": [
-        6
+        6,
+        4
       ],
-      "tid": 6,
+      "tid": 4,
       "watch": false,
       "weight": 233,
       "yearsFreeAgent": 0,
@@ -3023,7 +3120,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 3,
       "salaries": [
         {
           "season": 2019,
@@ -3222,7 +3319,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 4,
       "salaries": [
         {
           "season": 2019,
@@ -3421,7 +3518,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 2,
       "salaries": [
         {
           "season": 2019,
@@ -3620,7 +3717,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 10,
       "salaries": [
         {
           "season": 2019,
@@ -3819,7 +3916,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 3,
       "salaries": [
         {
           "season": 2019,
@@ -4014,7 +4111,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 3,
       "salaries": [
         {
           "season": 2019,
@@ -4209,7 +4306,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 6,
       "salaries": [
         {
           "season": 2019,
@@ -4268,12 +4365,57 @@
           "ba": 0,
           "pf": 0,
           "pts": 0
+        },
+        {
+          "playoffs": false,
+          "season": 2019,
+          "tid": 5,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
         }
       ],
       "statsTids": [
-        6
+        6,
+        5
       ],
-      "tid": 6,
+      "tid": 5,
       "watch": false,
       "weight": 184,
       "yearsFreeAgent": 0,
@@ -4414,7 +4556,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 7,
       "salaries": [
         {
           "season": 2019,
@@ -4469,12 +4611,57 @@
           "ba": 0,
           "pf": 0,
           "pts": 0
+        },
+        {
+          "playoffs": false,
+          "season": 2019,
+          "tid": 6,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
         }
       ],
       "statsTids": [
-        4
+        4,
+        6
       ],
-      "tid": 4,
+      "tid": 6,
       "watch": false,
       "weight": 175,
       "yearsFreeAgent": 0,
@@ -4615,7 +4802,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 2,
       "salaries": [
         {
           "season": 2019,
@@ -4810,7 +4997,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 1,
       "salaries": [
         {
           "season": 2019,
@@ -4861,12 +5048,57 @@
           "ba": 0,
           "pf": 0,
           "pts": 0
+        },
+        {
+          "playoffs": false,
+          "season": 2019,
+          "tid": 5,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
         }
       ],
       "statsTids": [
-        6
+        6,
+        5
       ],
-      "tid": 6,
+      "tid": 5,
       "watch": false,
       "weight": 221,
       "yearsFreeAgent": 0,
@@ -5001,7 +5233,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 2,
       "salaries": [
         {
           "season": 2019,
@@ -5192,7 +5424,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 3,
       "salaries": [
         {
           "season": 2019,
@@ -5383,7 +5615,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 8,
       "salaries": [
         {
           "season": 2019,
@@ -5574,7 +5806,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 4,
       "salaries": [
         {
           "season": 2019,
@@ -5771,7 +6003,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 12,
       "salaries": [
         {
           "season": 2019,
@@ -5830,12 +6062,57 @@
           "ba": 0,
           "pf": 0,
           "pts": 0
+        },
+        {
+          "playoffs": false,
+          "season": 2019,
+          "tid": 6,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
         }
       ],
       "statsTids": [
-        4
+        4,
+        6
       ],
-      "tid": 4,
+      "tid": 6,
       "watch": false,
       "weight": 214,
       "yearsFreeAgent": 0,
@@ -5972,7 +6249,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 4,
       "salaries": [
         {
           "season": 2019,
@@ -6169,7 +6446,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 6,
       "salaries": [
         {
           "season": 2019,
@@ -6364,7 +6641,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 7,
       "salaries": [
         {
           "season": 2019,
@@ -6555,7 +6832,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 5,
       "salaries": [
         {
           "season": 2019,
@@ -6746,7 +7023,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 9,
       "salaries": [
         {
           "season": 2019,
@@ -6937,7 +7214,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 10,
       "salaries": [
         {
           "season": 2019,
@@ -7128,7 +7405,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 4,
       "salaries": [
         {
           "season": 2019,
@@ -7319,7 +7596,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 12,
       "salaries": [
         {
           "season": 2019,
@@ -7370,12 +7647,57 @@
           "ba": 0,
           "pf": 0,
           "pts": 0
+        },
+        {
+          "playoffs": false,
+          "season": 2019,
+          "tid": 6,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
         }
       ],
       "statsTids": [
-        5
+        5,
+        6
       ],
-      "tid": 5,
+      "tid": 6,
       "watch": false,
       "weight": 220,
       "yearsFreeAgent": 0,
@@ -7512,7 +7834,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 12,
       "salaries": [
         {
           "season": 2019,
@@ -7703,7 +8025,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 10,
       "salaries": [
         {
           "season": 2019,
@@ -7894,7 +8216,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 12,
       "salaries": [
         {
           "season": 2019,
@@ -8092,7 +8414,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 0,
       "salaries": [
         {
           "season": 2019,
@@ -8298,7 +8620,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 1,
       "salaries": [
         {
           "season": 2019,
@@ -8503,7 +8825,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 0,
       "salaries": [
         {
           "season": 2019,
@@ -8700,7 +9022,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 1,
       "salaries": [
         {
           "season": 2019,
@@ -8891,7 +9213,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 1,
       "salaries": [
         {
           "season": 2019,
@@ -9090,7 +9412,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 0,
       "salaries": [
         {
           "season": 2019,
@@ -9285,7 +9607,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 0,
       "salaries": [
         {
           "season": 2019,
@@ -9476,7 +9798,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 0,
       "salaries": [
         {
           "season": 2019,
@@ -9667,7 +9989,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 0,
       "salaries": [
         {
           "season": 2019,
@@ -9858,7 +10180,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 0,
       "salaries": [
         {
           "season": 2019,
@@ -9917,12 +10239,57 @@
           "ba": 0,
           "pf": 0,
           "pts": 0
+        },
+        {
+          "playoffs": false,
+          "season": 2019,
+          "tid": 6,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
         }
       ],
       "statsTids": [
-        5
+        5,
+        6
       ],
-      "tid": 5,
+      "tid": 6,
       "watch": false,
       "weight": 234,
       "yearsFreeAgent": 0,
@@ -10057,7 +10424,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 2,
       "salaries": [
         {
           "season": 2019,
@@ -10116,12 +10483,57 @@
           "ba": 0,
           "pf": 0,
           "pts": 0
+        },
+        {
+          "playoffs": false,
+          "season": 2019,
+          "tid": 4,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
         }
       ],
       "statsTids": [
-        3
+        3,
+        4
       ],
-      "tid": 3,
+      "tid": 4,
       "watch": false,
       "weight": 224,
       "yearsFreeAgent": 0,
@@ -10256,7 +10668,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 3,
       "salaries": [
         {
           "season": 2019,
@@ -10451,7 +10863,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 1,
       "salaries": [
         {
           "season": 2019,
@@ -10644,7 +11056,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 1,
       "salaries": [
         {
           "season": 2019,
@@ -10835,7 +11247,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 6,
       "salaries": [
         {
           "season": 2019,
@@ -11034,7 +11446,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 4,
       "salaries": [
         {
           "season": 2019,
@@ -11089,12 +11501,57 @@
           "ba": 0,
           "pf": 0,
           "pts": 0
+        },
+        {
+          "playoffs": false,
+          "season": 2019,
+          "tid": 6,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
         }
       ],
       "statsTids": [
-        5
+        5,
+        6
       ],
-      "tid": 5,
+      "tid": 6,
       "watch": false,
       "weight": 215,
       "yearsFreeAgent": 0,
@@ -11229,7 +11686,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 2,
       "salaries": [
         {
           "season": 2019,
@@ -11424,7 +11881,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 2,
       "salaries": [
         {
           "season": 2019,
@@ -11619,7 +12076,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 2,
       "salaries": [
         {
           "season": 2019,
@@ -11814,7 +12271,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 1,
       "salaries": [
         {
           "season": 2019,
@@ -12005,7 +12462,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 5,
       "salaries": [
         {
           "season": 2019,
@@ -12200,7 +12657,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 2,
       "salaries": [
         {
           "season": 2019,
@@ -12395,7 +12852,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 3,
       "salaries": [
         {
           "season": 2019,
@@ -12590,7 +13047,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 4,
       "salaries": [
         {
           "season": 2019,
@@ -12781,7 +13238,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 2,
       "salaries": [
         {
           "season": 2019,
@@ -12972,7 +13429,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 5,
       "salaries": [
         {
           "season": 2019,
@@ -13167,7 +13624,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 3,
       "salaries": [
         {
           "season": 2019,
@@ -13358,7 +13815,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 1,
       "salaries": [
         {
           "season": 2019,
@@ -13549,7 +14006,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 5,
       "salaries": [
         {
           "season": 2019,
@@ -13742,7 +14199,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 5,
       "salaries": [
         {
           "season": 2019,
@@ -13793,12 +14250,57 @@
           "ba": 0,
           "pf": 0,
           "pts": 0
+        },
+        {
+          "playoffs": false,
+          "season": 2019,
+          "tid": 5,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
         }
       ],
       "statsTids": [
-        6
+        6,
+        5
       ],
-      "tid": 6,
+      "tid": 5,
       "watch": false,
       "weight": 168,
       "yearsFreeAgent": 0,
@@ -13933,7 +14435,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 3,
       "salaries": [
         {
           "season": 2019,
@@ -13988,12 +14490,57 @@
           "ba": 0,
           "pf": 0,
           "pts": 0
+        },
+        {
+          "playoffs": false,
+          "season": 2019,
+          "tid": 5,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
         }
       ],
       "statsTids": [
-        6
+        6,
+        5
       ],
-      "tid": 6,
+      "tid": 5,
       "watch": false,
       "weight": 232,
       "yearsFreeAgent": 0,
@@ -14128,7 +14675,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 5,
       "salaries": [
         {
           "season": 2019,
@@ -14319,7 +14866,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 5,
       "salaries": [
         {
           "season": 2019,
@@ -14374,12 +14921,57 @@
           "ba": 0,
           "pf": 0,
           "pts": 0
+        },
+        {
+          "playoffs": false,
+          "season": 2019,
+          "tid": 3,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
         }
       ],
       "statsTids": [
-        4
+        4,
+        3
       ],
-      "tid": 4,
+      "tid": 3,
       "watch": false,
       "weight": 225,
       "yearsFreeAgent": 0,
@@ -14514,7 +15106,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 6,
       "salaries": [
         {
           "season": 2019,
@@ -14705,7 +15297,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 6,
       "salaries": [
         {
           "season": 2019,
@@ -14896,7 +15488,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 4,
       "salaries": [
         {
           "season": 2019,
@@ -15091,7 +15683,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 8,
       "salaries": [
         {
           "season": 2019,
@@ -15286,7 +15878,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 2,
       "salaries": [
         {
           "season": 2019,
@@ -15477,7 +16069,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 5,
       "salaries": [
         {
           "season": 2019,
@@ -15668,7 +16260,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 5,
       "salaries": [
         {
           "season": 2019,
@@ -15859,7 +16451,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 7,
       "salaries": [
         {
           "season": 2019,
@@ -16050,7 +16642,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 4,
       "salaries": [
         {
           "season": 2019,
@@ -16241,7 +16833,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 5,
       "salaries": [
         {
           "season": 2019,
@@ -16438,7 +17030,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 3,
       "salaries": [
         {
           "season": 2019,
@@ -16629,7 +17221,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 7,
       "salaries": [
         {
           "season": 2019,
@@ -16820,7 +17412,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 6,
       "salaries": [
         {
           "season": 2019,
@@ -17011,7 +17603,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 6,
       "salaries": [
         {
           "season": 2019,
@@ -17202,7 +17794,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 9,
       "salaries": [
         {
           "season": 2019,
@@ -17397,7 +17989,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 7,
       "salaries": [
         {
           "season": 2019,
@@ -17448,12 +18040,57 @@
           "ba": 0,
           "pf": 0,
           "pts": 0
+        },
+        {
+          "playoffs": false,
+          "season": 2019,
+          "tid": 3,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
         }
       ],
       "statsTids": [
-        4
+        4,
+        3
       ],
-      "tid": 4,
+      "tid": 3,
       "watch": false,
       "weight": 228,
       "yearsFreeAgent": 0,
@@ -17588,7 +18225,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 5,
       "salaries": [
         {
           "season": 2019,
@@ -17785,7 +18422,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 7,
       "salaries": [
         {
           "season": 2019,
@@ -17976,7 +18613,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 6,
       "salaries": [
         {
           "season": 2019,
@@ -18167,7 +18804,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 6,
       "salaries": [
         {
           "season": 2019,
@@ -18358,7 +18995,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 11,
       "salaries": [
         {
           "season": 2019,
@@ -18549,7 +19186,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 6,
       "salaries": [
         {
           "season": 2019,
@@ -18746,7 +19383,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 1,
       "salaries": [
         {
           "season": 2019,
@@ -18937,7 +19574,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 3,
       "salaries": [
         {
           "season": 2019,
@@ -19128,7 +19765,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 4,
       "salaries": [
         {
           "season": 2019,
@@ -19325,7 +19962,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 7,
       "salaries": [
         {
           "season": 2019,
@@ -19516,7 +20153,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 9,
       "salaries": [
         {
           "season": 2019,
@@ -19707,7 +20344,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 8,
       "salaries": [
         {
           "season": 2019,
@@ -19898,7 +20535,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 8,
       "salaries": [
         {
           "season": 2019,
@@ -20089,7 +20726,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 4,
       "salaries": [
         {
           "season": 2019,
@@ -20286,7 +20923,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 9,
       "salaries": [
         {
           "season": 2019,
@@ -20479,7 +21116,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 7,
       "salaries": [
         {
           "season": 2019,
@@ -20670,7 +21307,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 8,
       "salaries": [
         {
           "season": 2019,
@@ -20861,7 +21498,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 7,
       "salaries": [
         {
           "season": 2019,
@@ -21052,7 +21689,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 8,
       "salaries": [
         {
           "season": 2019,
@@ -21243,7 +21880,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 7,
       "salaries": [
         {
           "season": 2019,
@@ -21434,7 +22071,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 8,
       "salaries": [
         {
           "season": 2019,
@@ -21625,7 +22262,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 7,
       "salaries": [
         {
           "season": 2019,
@@ -21816,7 +22453,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 9,
       "salaries": [
         {
           "season": 2019,
@@ -22007,7 +22644,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 11,
       "salaries": [
         {
           "season": 2019,
@@ -22198,7 +22835,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 9,
       "salaries": [
         {
           "season": 2019,
@@ -22389,7 +23026,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 11,
       "salaries": [
         {
           "season": 2019,
@@ -22580,7 +23217,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 10,
       "salaries": [
         {
           "season": 2019,
@@ -22777,7 +23414,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 9,
       "salaries": [
         {
           "season": 2019,
@@ -22968,7 +23605,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 10,
       "salaries": [
         {
           "season": 2019,
@@ -23159,7 +23796,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 8,
       "salaries": [
         {
           "season": 2019,
@@ -23350,7 +23987,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 8,
       "salaries": [
         {
           "season": 2019,
@@ -23541,7 +24178,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 11,
       "salaries": [
         {
           "season": 2019,
@@ -23732,7 +24369,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 12,
       "salaries": [
         {
           "season": 2019,
@@ -23923,7 +24560,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 11,
       "salaries": [
         {
           "season": 2019,
@@ -24114,7 +24751,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 10,
       "salaries": [
         {
           "season": 2019,
@@ -24305,7 +24942,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 13,
       "salaries": [
         {
           "season": 2019,
@@ -24496,7 +25133,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 11,
       "salaries": [
         {
           "season": 2019,
@@ -24687,7 +25324,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 9,
       "salaries": [
         {
           "season": 2019,
@@ -24878,7 +25515,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 10,
       "salaries": [
         {
           "season": 2019,
@@ -25069,7 +25706,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 10,
       "salaries": [
         {
           "season": 2019,
@@ -25260,7 +25897,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 9,
       "salaries": [
         {
           "season": 2019,
@@ -25457,7 +26094,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 12,
       "salaries": [
         {
           "season": 2019,
@@ -25648,7 +26285,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 12,
       "salaries": [
         {
           "season": 2019,
@@ -25839,7 +26476,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 12,
       "salaries": [
         {
           "season": 2019,
@@ -26036,7 +26673,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 11,
       "salaries": [
         {
           "season": 2019,
@@ -26227,7 +26864,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 8,
       "salaries": [
         {
           "season": 2019,
@@ -26418,7 +27055,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 12,
       "salaries": [
         {
           "season": 2019,
@@ -26611,7 +27248,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 11,
       "salaries": [
         {
           "season": 2019,
@@ -26802,7 +27439,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 9,
       "salaries": [
         {
           "season": 2019,
@@ -26993,7 +27630,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 11,
       "salaries": [
         {
           "season": 2019,
@@ -27184,7 +27821,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 10,
       "salaries": [
         {
           "season": 2019,
@@ -27375,7 +28012,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
+      "rosterOrder": 10,
       "salaries": [
         {
           "season": 2019,
