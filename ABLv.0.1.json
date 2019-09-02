@@ -4,7 +4,6 @@
     "phaseText": "2019 preseason",
     "name": "ABL"
   },
-  "releasedPlayers": [],
   "awards": [],
   "schedule": [],
   "playoffSeries": [],
@@ -16,16 +15,20 @@
       "rid": 0,
       "teams": [
         {
-          "tid": 4,
-          "pids": [],
+          "tid": 5,
+          "pids": [
+            12
+          ],
           "pidsExcluded": [],
           "dpids": [],
           "dpidsExcluded": []
         },
         {
-          "tid": 5,
+          "tid": 4,
           "pids": [
-            12
+            16,
+            57,
+            95
           ],
           "pidsExcluded": [],
           "dpids": [],
@@ -43,55 +46,105 @@
       "mid": 0
     }
   ],
-  "events": [
+  "releasedPlayers": [
     {
-      "type": "trade",
-      "text": "The <a href=\"/l/40/roster/COL/2019\">Cardinals</a> traded <a href=\"/l/40/player/10\">Mike Miller</a>, <a href=\"/l/40/player/17\">Sava Miller</a>, a 2019 1st round pick (COL), and a 2022 1st round pick (COL) to the <a href=\"/l/40/roster/SD/2019\">Lightning</a> for <a href=\"/l/40/player/2\">Jimmy Smith</a>.",
-      "pids": [
-        10,
-        17,
-        2
-      ],
-      "tids": [
-        4,
-        6
-      ],
-      "season": 2019,
-      "eid": 0
+      "pid": 24,
+      "tid": 6,
+      "contract": {
+        "amount": 250,
+        "exp": 2019
+      },
+      "rid": 0
     },
     {
-      "type": "trade",
-      "text": "The <a href=\"/l/40/roster/COL/2019\">Cardinals</a> traded <a href=\"/l/40/player/61\">Aaron Moore</a>, <a href=\"/l/40/player/77\">Phil Otis</a>, a 2020 1st round pick (COL), and a 2021 1st round pick (COL) to the <a href=\"/l/40/roster/CHI/2019\">Whirlwinds</a> for <a href=\"/l/40/player/39\">LaRon Brooks</a>.",
-      "pids": [
-        61,
-        77,
-        39
-      ],
-      "tids": [
-        4,
-        3
-      ],
-      "season": 2019,
-      "eid": 1
+      "pid": 94,
+      "tid": 6,
+      "contract": {
+        "amount": 250,
+        "exp": 2019
+      },
+      "rid": 1
     },
     {
-      "type": "trade",
-      "text": "The <a href=\"/l/40/roster/SD/2019\">Lightning</a> traded <a href=\"/l/40/player/9\">Derrek Quaintance</a>, <a href=\"/l/40/player/12\">Antoine Edwards</a>, <a href=\"/l/40/player/58\">Michael Meacham</a>, and <a href=\"/l/40/player/59\">Sani Rojc</a> to the <a href=\"/l/40/roster/SEA/2019\">SuperSonics</a> for <a href=\"/l/40/player/25\">Marcus Green</a>, <a href=\"/l/40/player/38\">Stefan Milovanovic</a>, and <a href=\"/l/40/player/44\">Issac Kelm</a>.",
-      "pids": [
-        9,
-        12,
-        58,
-        59,
-        25,
-        38,
-        44
-      ],
-      "tids": [
-        6,
-        5
-      ],
-      "season": 2019,
-      "eid": 2
+      "pid": 76,
+      "tid": 6,
+      "contract": {
+        "amount": 250,
+        "exp": 2020
+      },
+      "rid": 2
+    },
+    {
+      "pid": 113,
+      "tid": 6,
+      "contract": {
+        "amount": 250,
+        "exp": 2019
+      },
+      "rid": 3
+    },
+    {
+      "pid": 104,
+      "tid": 6,
+      "contract": {
+        "amount": 250,
+        "exp": 2019
+      },
+      "rid": 4
+    },
+    {
+      "pid": 120,
+      "tid": 2,
+      "contract": {
+        "amount": 250,
+        "exp": 2019
+      },
+      "rid": 5
+    },
+    {
+      "pid": 125,
+      "tid": 9,
+      "contract": {
+        "amount": 250,
+        "exp": 2019
+      },
+      "rid": 6
+    },
+    {
+      "pid": 122,
+      "tid": 0,
+      "contract": {
+        "amount": 250,
+        "exp": 2019
+      },
+      "rid": 7
+    },
+    {
+      "pid": 114,
+      "tid": 3,
+      "contract": {
+        "amount": 250,
+        "exp": 2019
+      },
+      "rid": 8
+    },
+    {
+      "pid": 121,
+      "tid": 3,
+      "contract": {
+        "amount": 250,
+        "exp": 2019
+      },
+      "rid": 9
+    },
+    {
+      "pid": 129,
+      "tid": 1,
+      "contract": {
+        "amount": 250,
+        "exp": 2019
+      },
+      "rid": 10
     }
   ],
   "teams": [
@@ -1806,6 +1859,213 @@
       ]
     }
   ],
+  "events": [
+    {
+      "type": "trade",
+      "text": "The <a href=\"/l/40/roster/COL/2019\">Cardinals</a> traded <a href=\"/l/40/player/10\">Mike Miller</a>, <a href=\"/l/40/player/17\">Sava Miller</a>, a 2019 1st round pick (COL), and a 2022 1st round pick (COL) to the <a href=\"/l/40/roster/SD/2019\">Lightning</a> for <a href=\"/l/40/player/2\">Jimmy Smith</a>.",
+      "pids": [
+        10,
+        17,
+        2
+      ],
+      "tids": [
+        4,
+        6
+      ],
+      "season": 2019,
+      "eid": 0
+    },
+    {
+      "type": "trade",
+      "text": "The <a href=\"/l/40/roster/COL/2019\">Cardinals</a> traded <a href=\"/l/40/player/61\">Aaron Moore</a>, <a href=\"/l/40/player/77\">Phil Otis</a>, a 2020 1st round pick (COL), and a 2021 1st round pick (COL) to the <a href=\"/l/40/roster/CHI/2019\">Whirlwinds</a> for <a href=\"/l/40/player/39\">LaRon Brooks</a>.",
+      "pids": [
+        61,
+        77,
+        39
+      ],
+      "tids": [
+        4,
+        3
+      ],
+      "season": 2019,
+      "eid": 1
+    },
+    {
+      "type": "trade",
+      "text": "The <a href=\"/l/40/roster/SD/2019\">Lightning</a> traded <a href=\"/l/40/player/9\">Derrek Quaintance</a>, <a href=\"/l/40/player/12\">Antoine Edwards</a>, <a href=\"/l/40/player/58\">Michael Meacham</a>, and <a href=\"/l/40/player/59\">Sani Rojc</a> to the <a href=\"/l/40/roster/SEA/2019\">SuperSonics</a> for <a href=\"/l/40/player/25\">Marcus Green</a>, <a href=\"/l/40/player/38\">Stefan Milovanovic</a>, and <a href=\"/l/40/player/44\">Issac Kelm</a>.",
+      "pids": [
+        9,
+        12,
+        58,
+        59,
+        25,
+        38,
+        44
+      ],
+      "tids": [
+        6,
+        5
+      ],
+      "season": 2019,
+      "eid": 2
+    },
+    {
+      "type": "release",
+      "text": "The <a href=\"/l/40/roster/SD/2019\">Lightning</a> released <a href=\"/l/40/player/24\">Nemanja Vranes</a>.",
+      "pids": [
+        24
+      ],
+      "tids": [
+        6
+      ],
+      "season": 2019,
+      "eid": 3
+    },
+    {
+      "type": "release",
+      "text": "The <a href=\"/l/40/roster/SD/2019\">Lightning</a> released <a href=\"/l/40/player/94\">Tyrone Hamilton</a>.",
+      "pids": [
+        94
+      ],
+      "tids": [
+        6
+      ],
+      "season": 2019,
+      "eid": 4
+    },
+    {
+      "type": "release",
+      "text": "The <a href=\"/l/40/roster/SD/2019\">Lightning</a> released <a href=\"/l/40/player/76\">Tim Johnson</a>.",
+      "pids": [
+        76
+      ],
+      "tids": [
+        6
+      ],
+      "season": 2019,
+      "eid": 5
+    },
+    {
+      "type": "release",
+      "text": "The <a href=\"/l/40/roster/SD/2019\">Lightning</a> released <a href=\"/l/40/player/113\">Gianluca Lulli</a>.",
+      "pids": [
+        113
+      ],
+      "tids": [
+        6
+      ],
+      "season": 2019,
+      "eid": 6
+    },
+    {
+      "type": "freeAgent",
+      "text": "The <a href=\"/l/40/roster/SD/2019\">Lightning</a> signed <a href=\"/l/40/player/164\">Stanislav Vialtsev</a> for $0.25M/year through 2019.",
+      "pids": [
+        164
+      ],
+      "tids": [
+        6
+      ],
+      "season": 2019,
+      "eid": 7
+    },
+    {
+      "type": "release",
+      "text": "The <a href=\"/l/40/roster/SD/2019\">Lightning</a> released <a href=\"/l/40/player/104\">Scooter Johnson</a>.",
+      "pids": [
+        104
+      ],
+      "tids": [
+        6
+      ],
+      "season": 2019,
+      "eid": 8
+    },
+    {
+      "type": "release",
+      "text": "The <a href=\"/l/40/roster/BOS/2019\">Massacre</a> released <a href=\"/l/40/player/120\">Duane Span</a>.",
+      "pids": [
+        120
+      ],
+      "tids": [
+        2
+      ],
+      "season": 2019,
+      "eid": 9
+    },
+    {
+      "type": "release",
+      "text": "The <a href=\"/l/40/roster/HOU/2019\">Apollos</a> released <a href=\"/l/40/player/125\">Blake McCombs</a>.",
+      "pids": [
+        125
+      ],
+      "tids": [
+        9
+      ],
+      "season": 2019,
+      "eid": 10
+    },
+    {
+      "type": "release",
+      "text": "The <a href=\"/l/40/roster/NY/2019\">Bankers</a> released <a href=\"/l/40/player/122\">Courtney Coby</a>.",
+      "pids": [
+        122
+      ],
+      "tids": [
+        0
+      ],
+      "season": 2019,
+      "eid": 11
+    },
+    {
+      "type": "release",
+      "text": "The <a href=\"/l/40/roster/CHI/2019\">Whirlwinds</a> released <a href=\"/l/40/player/114\">Quannas Ike</a>.",
+      "pids": [
+        114
+      ],
+      "tids": [
+        3
+      ],
+      "season": 2019,
+      "eid": 12
+    },
+    {
+      "type": "release",
+      "text": "The <a href=\"/l/40/roster/CHI/2019\">Whirlwinds</a> released <a href=\"/l/40/player/121\">Doug Stith</a>.",
+      "pids": [
+        121
+      ],
+      "tids": [
+        3
+      ],
+      "season": 2019,
+      "eid": 13
+    },
+    {
+      "type": "release",
+      "text": "The <a href=\"/l/40/roster/STL/2019\">Spirits</a> released <a href=\"/l/40/player/129\">Charleston Henderson</a>.",
+      "pids": [
+        129
+      ],
+      "tids": [
+        1
+      ],
+      "season": 2019,
+      "eid": 14
+    },
+    {
+      "type": "freeAgent",
+      "text": "The <a href=\"/l/40/roster/COL/2019\">Cardinals</a> signed <a href=\"/l/40/player/94\">Tyrone Hamilton</a> for $1.35M/year through 2019.",
+      "pids": [
+        94
+      ],
+      "tids": [
+        4
+      ],
+      "season": 2019,
+      "eid": 15
+    }
+  ],
   "draftPicks": [
     {
       "tid": 0,
@@ -2183,7 +2443,7 @@
     },
     {
       "key": "draftType",
-      "value": "noLottery"
+      "value": "nba2019"
     },
     {
       "key": "easyDifficultyInPast",
@@ -2683,7 +2943,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 0,
+      "rosterOrder": 1,
       "salaries": [
         {
           "season": 2019,
@@ -3717,7 +3977,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 10,
+      "rosterOrder": 11,
       "salaries": [
         {
           "season": 2019,
@@ -4306,7 +4566,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 6,
+      "rosterOrder": 2,
       "salaries": [
         {
           "season": 2019,
@@ -4556,7 +4816,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 7,
+      "rosterOrder": 5,
       "salaries": [
         {
           "season": 2019,
@@ -4997,7 +5257,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 1,
+      "rosterOrder": 0,
       "salaries": [
         {
           "season": 2019,
@@ -5233,7 +5493,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 2,
+      "rosterOrder": 9,
       "salaries": [
         {
           "season": 2019,
@@ -5417,7 +5677,7 @@
           "hgt": 54,
           "fuzz": -0.6050035402264617,
           "ovr": 35,
-          "pos": "PF",
+          "pos": "F",
           "pot": 45,
           "season": 2019,
           "skills": []
@@ -5489,7 +5749,8 @@
       "valueFuzz": 38,
       "valueNoPotFuzz": 34,
       "valueWithContract": 39,
-      "pid": 14
+      "pid": 14,
+      "pos": "F"
     },
     {
       "awards": [],
@@ -5615,7 +5876,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 8,
+      "rosterOrder": 7,
       "salaries": [
         {
           "season": 2019,
@@ -5806,7 +6067,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 4,
+      "rosterOrder": 5,
       "salaries": [
         {
           "season": 2019,
@@ -6003,7 +6264,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 12,
+      "rosterOrder": 8,
       "salaries": [
         {
           "season": 2019,
@@ -6446,7 +6707,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 6,
+      "rosterOrder": 8,
       "salaries": [
         {
           "season": 2019,
@@ -7461,7 +7722,7 @@
       "statsTids": [
         6
       ],
-      "tid": 6,
+      "tid": -1,
       "watch": false,
       "weight": 207,
       "yearsFreeAgent": 0,
@@ -7596,7 +7857,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 12,
+      "rosterOrder": 9,
       "salaries": [
         {
           "season": 2019,
@@ -8025,7 +8286,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 10,
+      "rosterOrder": 11,
       "salaries": [
         {
           "season": 2019,
@@ -8620,7 +8881,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 1,
+      "rosterOrder": 2,
       "salaries": [
         {
           "season": 2019,
@@ -9982,7 +10243,7 @@
           "hgt": 36,
           "fuzz": 1.750287054084584,
           "ovr": 46,
-          "pos": "PG",
+          "pos": "G",
           "pot": 55,
           "season": 2019,
           "skills": []
@@ -10054,7 +10315,8 @@
       "valueFuzz": 51.599999999999994,
       "valueNoPotFuzz": 48,
       "valueWithContract": 49.599999999999994,
-      "pid": 37
+      "pid": 37,
+      "pos": "G"
     },
     {
       "awards": [],
@@ -10180,7 +10442,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 0,
+      "rosterOrder": 2,
       "salaries": [
         {
           "season": 2019,
@@ -11439,14 +11701,14 @@
           "hgt": 43,
           "fuzz": 0.8592850714735736,
           "ovr": 33,
-          "pos": "SG",
+          "pos": "GF",
           "pot": 52,
           "season": 2019,
           "skills": []
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 4,
+      "rosterOrder": 3,
       "salaries": [
         {
           "season": 2019,
@@ -11560,7 +11822,8 @@
       "valueFuzz": 45.4,
       "valueNoPotFuzz": 34,
       "valueWithContract": 44.4,
-      "pid": 44
+      "pid": 44,
+      "pos": "GF"
     },
     {
       "awards": [],
@@ -11686,7 +11949,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 2,
+      "rosterOrder": 4,
       "salaries": [
         {
           "season": 2019,
@@ -11881,7 +12144,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 2,
+      "rosterOrder": 0,
       "salaries": [
         {
           "season": 2019,
@@ -14006,7 +14269,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 5,
+      "rosterOrder": 4,
       "salaries": [
         {
           "season": 2019,
@@ -14435,7 +14698,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 3,
+      "rosterOrder": 4,
       "salaries": [
         {
           "season": 2019,
@@ -14675,7 +14938,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 5,
+      "rosterOrder": 4,
       "salaries": [
         {
           "season": 2019,
@@ -15676,7 +15939,7 @@
           "hgt": 61,
           "fuzz": -0.7917033078984481,
           "ovr": 30,
-          "pos": "PF",
+          "pos": "FC",
           "pot": 44,
           "season": 2019,
           "skills": []
@@ -15752,7 +16015,8 @@
       "valueFuzz": 36,
       "valueNoPotFuzz": 29,
       "valueWithContract": 37,
-      "pid": 65
+      "pid": 65,
+      "pos": "FC"
     },
     {
       "awards": [],
@@ -16069,7 +16333,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 5,
+      "rosterOrder": 6,
       "salaries": [
         {
           "season": 2019,
@@ -16451,7 +16715,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 7,
+      "rosterOrder": 6,
       "salaries": [
         {
           "season": 2019,
@@ -17412,7 +17676,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 6,
+      "rosterOrder": 8,
       "salaries": [
         {
           "season": 2019,
@@ -17794,7 +18058,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 9,
+      "rosterOrder": 6,
       "salaries": [
         {
           "season": 2019,
@@ -17806,6 +18070,50 @@
         }
       ],
       "stats": [
+        {
+          "playoffs": false,
+          "season": 2019,
+          "tid": 6,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
+        },
         {
           "playoffs": false,
           "season": 2019,
@@ -18995,7 +19303,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 11,
+      "rosterOrder": 7,
       "salaries": [
         {
           "season": 2019,
@@ -19765,7 +20073,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 4,
+      "rosterOrder": 5,
       "salaries": [
         {
           "season": 2019,
@@ -19962,7 +20270,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 7,
+      "rosterOrder": 12,
       "salaries": [
         {
           "season": 2019,
@@ -20923,7 +21231,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 9,
+      "rosterOrder": 10,
       "salaries": [
         {
           "season": 2019,
@@ -21191,7 +21499,7 @@
       },
       "college": "",
       "contract": {
-        "amount": 250,
+        "amount": 1350,
         "exp": 2019
       },
       "draft": {
@@ -21270,7 +21578,7 @@
         0,
         0
       ],
-      "gamesUntilTradable": 0,
+      "gamesUntilTradable": 9,
       "hgt": 74,
       "hof": false,
       "imgURL": "",
@@ -21307,11 +21615,15 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 8,
+      "rosterOrder": 7,
       "salaries": [
         {
           "season": 2019,
           "amount": 250
+        },
+        {
+          "season": 2019,
+          "amount": 1350
         }
       ],
       "stats": [
@@ -21358,12 +21670,57 @@
           "ba": 0,
           "pf": 0,
           "pts": 0
+        },
+        {
+          "playoffs": false,
+          "season": 2019,
+          "tid": 4,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
         }
       ],
       "statsTids": [
-        6
+        6,
+        4
       ],
-      "tid": 6,
+      "tid": 4,
       "watch": false,
       "weight": 203,
       "yearsFreeAgent": 0,
@@ -21498,7 +21855,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 7,
+      "rosterOrder": 8,
       "salaries": [
         {
           "season": 2019,
@@ -21689,7 +22046,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 8,
+      "rosterOrder": 7,
       "salaries": [
         {
           "season": 2019,
@@ -23026,7 +23383,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 11,
+      "rosterOrder": 13,
       "salaries": [
         {
           "season": 2019,
@@ -23217,7 +23574,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 10,
+      "rosterOrder": 6,
       "salaries": [
         {
           "season": 2019,
@@ -23273,7 +23630,7 @@
       "statsTids": [
         6
       ],
-      "tid": 6,
+      "tid": -1,
       "watch": false,
       "weight": 191,
       "yearsFreeAgent": 0,
@@ -23796,7 +24153,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 8,
+      "rosterOrder": 9,
       "salaries": [
         {
           "season": 2019,
@@ -24998,7 +25355,7 @@
       "statsTids": [
         6
       ],
-      "tid": 6,
+      "tid": -1,
       "watch": false,
       "weight": 213,
       "yearsFreeAgent": 0,
@@ -25189,7 +25546,7 @@
       "statsTids": [
         3
       ],
-      "tid": 3,
+      "tid": -1,
       "watch": false,
       "weight": 238,
       "yearsFreeAgent": 0,
@@ -25324,7 +25681,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 9,
+      "rosterOrder": 10,
       "salaries": [
         {
           "season": 2019,
@@ -26341,7 +26698,7 @@
       "statsTids": [
         2
       ],
-      "tid": 2,
+      "tid": -1,
       "watch": false,
       "weight": 247,
       "yearsFreeAgent": 0,
@@ -26532,7 +26889,7 @@
       "statsTids": [
         3
       ],
-      "tid": 3,
+      "tid": -1,
       "watch": false,
       "weight": 233,
       "yearsFreeAgent": 0,
@@ -26729,7 +27086,7 @@
       "statsTids": [
         0
       ],
-      "tid": 0,
+      "tid": -1,
       "watch": false,
       "weight": 212,
       "yearsFreeAgent": 0,
@@ -27055,7 +27412,7 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 12,
+      "rosterOrder": 11,
       "salaries": [
         {
           "season": 2019,
@@ -27304,7 +27661,7 @@
       "statsTids": [
         9
       ],
-      "tid": 9,
+      "tid": -1,
       "watch": false,
       "weight": 191,
       "yearsFreeAgent": 0,
@@ -28068,7 +28425,7 @@
       "statsTids": [
         1
       ],
-      "tid": 1,
+      "tid": -1,
       "watch": false,
       "weight": 248,
       "yearsFreeAgent": 0,
@@ -32908,7 +33265,7 @@
         0,
         0
       ],
-      "gamesUntilTradable": 0,
+      "gamesUntilTradable": 9,
       "hgt": 82,
       "hof": false,
       "imgURL": "",
@@ -32945,11 +33302,63 @@
         }
       ],
       "retiredYear": null,
-      "rosterOrder": 666,
-      "salaries": [],
-      "stats": [],
-      "statsTids": [],
-      "tid": -1,
+      "rosterOrder": 1,
+      "salaries": [
+        {
+          "season": 2019,
+          "amount": 250
+        }
+      ],
+      "stats": [
+        {
+          "playoffs": false,
+          "season": 2019,
+          "tid": 6,
+          "yearsWithTeam": 1,
+          "per": 0,
+          "ewa": 0,
+          "astp": 0,
+          "blkp": 0,
+          "drbp": 0,
+          "orbp": 0,
+          "stlp": 0,
+          "trbp": 0,
+          "usgp": 0,
+          "drtg": 0,
+          "ortg": 0,
+          "dws": 0,
+          "ows": 0,
+          "gp": 0,
+          "gs": 0,
+          "min": 0,
+          "fg": 0,
+          "fga": 0,
+          "fgAtRim": 0,
+          "fgaAtRim": 0,
+          "fgLowPost": 0,
+          "fgaLowPost": 0,
+          "fgMidRange": 0,
+          "fgaMidRange": 0,
+          "tp": 0,
+          "tpa": 0,
+          "ft": 0,
+          "fta": 0,
+          "pm": 0,
+          "orb": 0,
+          "drb": 0,
+          "ast": 0,
+          "tov": 0,
+          "stl": 0,
+          "blk": 0,
+          "ba": 0,
+          "pf": 0,
+          "pts": 0
+        }
+      ],
+      "statsTids": [
+        6
+      ],
+      "tid": 6,
       "watch": false,
       "weight": 209,
       "yearsFreeAgent": 1,
