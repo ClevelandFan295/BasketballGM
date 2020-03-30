@@ -9,7 +9,7 @@ Generate a schedule as described by the suggestion on 08/15/19
 ------------------------------------------
 CHANGE FILENAME AND DIVISION MATCHUPS HERE
 '''
-filename = 'currentExport3.json'
+filename = 'currentExport4.json'
 alignment = 3 #determines which divisions play each other (1, 2, or 3) - card
 '''
 ------------------------------------------
